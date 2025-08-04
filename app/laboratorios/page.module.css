@@ -1,0 +1,71 @@
+.sectionPage {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #aaa;
+  max-width: 600px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.card:hover {
+  background: #222;
+  transform: translateY(-4px);
+}
+
+.backButton {
+  display: inline-block;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0e0f0f;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: #3d3d3d;
+}

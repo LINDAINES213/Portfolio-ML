@@ -160,8 +160,47 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
+
+.landing {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.landing h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.sectionCard {
+  background: #1e1e1e;
+  padding: 1.2rem 2rem;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+  border: 1px solid #333;
+}
+
+.sectionCard:hover {
+  background: #333;
 }
