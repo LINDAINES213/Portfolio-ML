@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAGES: true
+      NEXT_PUBLIC_BASE_PATH: "/Portfolio-ML"
 
     steps:
       - name: Checkout repository
